@@ -4,7 +4,7 @@ services:
     image: postgres:14-alpine
     environment:
       - POSTGRES_PASSWORD=postgres
-  api:
+  web:
     build:
       context: .
     environment:
